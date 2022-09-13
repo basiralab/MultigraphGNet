@@ -24,10 +24,15 @@ Clone this repo. Then, create a virtual env using the following command
 ```sh
 python3 -m venv MultigraphGNet
 ```
-Activate the virtual env using the following command
+Activate the virtual env using the following command (for Linux and OS X)
 ```sh
 source MultigraphGNet/bin/activate
 ```
+Activate the virtual env using the following command (for Windows)
+```sh
+MutligraphGNet\Scripts\activate.bat
+```
+
 Use `pip` to install dependencies. For cpu installation, use the following command
 ```sh
 pip3 install torch scipy scikit-learn matplotlib torch-scatter torch-sparse torch-cluster torch-spline-conv torch-geometric -f https://data.pyg.org/whl/torch-1.12.0+cpu.html
@@ -77,11 +82,11 @@ Results are averaged over the testing set, 5-Folds, 5 seeds and `k=10, 25, 50` (
 
 To install and run MultigraphGNet, check the following YouTube video: 
 
-TODO: Insert link
+https://www.youtube.com/watch?v=iNNFNlML_CU&ab_channel=BASIRALab
 
 To learn about how MultigraphGNet works, check the following YouTube video: 
 
-TODO: Insert link
+https://www.youtube.com/watch?v=LQZBVwo_iNU&ab_channel=BASIRALab
 
 
 ## Please cite the following paper when using MultigraphGNet
