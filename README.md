@@ -88,6 +88,9 @@ To learn about how MultigraphGNet works, check the following YouTube video:
 
 https://www.youtube.com/watch?v=LQZBVwo_iNU&ab_channel=BASIRALab
 
+## ArXiv Link
+
+You can access the published paper at https://arxiv.org/abs/2209.06005
 
 ## Please cite the following paper when using MultigraphGNet
 ```latex
