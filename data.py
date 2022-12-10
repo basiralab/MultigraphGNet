@@ -26,7 +26,7 @@ def read_all_dataset(root, read_indices=None, connection_mask=None) -> List[np.a
                     mvbn[connection_mask != 1] = 0
                 all_data.append(mvbn)
 
-    return [np.array(data) for data in all_data]
+    return np.array([np.array(data) for data in all_data])
 
 
 def read_simulated_dataset(path) -> np.array:
